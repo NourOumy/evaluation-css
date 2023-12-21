@@ -4,14 +4,391 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.min.css">
-    <title>Exercice</title>
+    <title>evaluation-css</title>
     
 </head>
-<body>
-<section class="principale">
-    <h2>test</h2>
-    <div class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas voluptates quisquam temporibus? <a href="">Laudantium</a> tenetur sit exercitationem dignissimos eaque illum adipisci recusandae, aut amet voluptatem, cum enim voluptas ratione non.</div>
-</section>
-<!-- git remote add origin https://github.com/NourOumy/evaluation-css.git -->
+<body class="homepage">
+    <header>
+        <div class="header-top wrapper">
+            <a href="#" class="header__logo"><img src="images/logo.png" alt="logo"></a>
+            <a class="header__tod-advert"><img src="images/top-advert.png" alt="top-advert"></a>
+        </div>
+            <hr>
+        <div class="burger-vs-menu red-bg wrapper">
+            <div class="header__menu">
+                <div class="header__menu__burger-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="header__menu__text">Menu</div>
+            <nav class="header__nav">
+                <a href="#" class="active-page">Today</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Travel</a>
+                <a href="#">Health</a>
+                <a href="#">Entertainment</a>
+                <a href="#">Sport</a>
+            </nav>
+        </div>
+            <div class="header__search">
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#000000" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+            </div>
+    </header>
+    
+    <section class="wrapper">
+        <section class="politices">
+            <a href="#" class="red-bg">Politices</a>
+            <h3>What's behind the world obsession with gems?</h3>
+            <div class="subtitle">March 29, 2016</div>
+            <div class="img-hover">
+                <img src="images/20.jpg" alt="politices">
+            </div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend. Nullam viverra tincidunt dolor, at pulvinar dui. Nullam at risus ut ipsum viverra posuere. Aliquam quis convallis enim. Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla quam, a iaculis justo finibus non. Suspendisse in fermentum nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend.</div>
+            <a href="" class="button">Continue reading <span>></span></a>
+            <div class="politices__social-logos">
+                <a href="#" class="politices__social-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="15.5" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#d3d3d3" d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3 .8-3.4 5-20.3 6.9-28.1 .6-2.5 .3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg></a>
+                <a href="#" class="politices__social-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#d3d3d3" d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg>
+                </a>
+                <a href="#" class="politices__social-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#d3d3d3" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+                </a>
+                <a href="#" class="politices__social-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#d3d3d3" d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg>
+                </a>
+            </div>
+        </section>
+        <!-- -------------------------------------------------------------------- -->
+        <section class="popular">
+            <h1 class="border">TODAY’S MOST POPULAR</h1>
+            <article>
+                <div class="img-hover">
+                    <img src="images/mansion.jpg" alt="popular">
+                </div>
+                <a href="#" class="red-bg">News</h2>
+                <a href="#" class="article__title">$250-million mansion is most expensive</a>
+                <div class="subtitle">March 29, 2016</div>
+                <a href="#" class="comments">3 comments</a>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend. Nullam viverra tincidunt dolor, at pulvinar dui. Nullam at risus ut ipsum viverra posuere.</div>
+            </article>
+            <article>
+                <div class="img-hover">
+                    <img src="images/homeless.jpg" alt="homeless">
+                </div>
+                <a href="#" class="red-bg">Life</h2>
+                <a href="#" class="article__title">Homeless man steals $350,000</a>
+                <div class="subtitle">March 29, 2016</div>
+                <a href="#" class="comments">3 comments</a>
+                <div class="description">Aliquam quis convallis enim. Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla quam, a iaculis justo finibus non. Suspendisse in fermentum nunc.</div>
+            </article>
+        </section>
+        <section class="breaking-news">
+            <h1 class="border">Breaking news</h1>
+            <article>
+                <div class="img-hover"> <img src="images/kids.jpg" alt="kids"></div>
+                <header class="breaking-news__header">
+                    <div class="red-bg">breaking news</div>
+                    <div class="brightness-bg"></div>
+                </header>
+                <footer class="breaking-news__footer">China leads new global skyscraper</footer>
+            </article>
+            <article>
+                <div class="img-hover"><img src="images/mansion.jpg" alt="zebra"></div>
+                <header class="breaking-news__header">
+                    <div class="red-bg">breaking news</div>
+                    <div class="brightness-bg"></div>
+                </header>
+                <footer class="breaking-news__footer">Can a zebra crossing change its stripes?</footer>
+            </article>
+        </section>
+        <!-- -------------------------------------------------------------------- -->
+        <section class="dont-miss">
+            <h1 class="border">Don't miss</h1>
+            <article>
+                <div class="img-hover"><img src="images/council.jpg" alt="council"></div>
+                <div class="comments red-hover">EU council reunites</div>
+                <div class="subtitle">Nov 29, 2017</div>
+            </article>
+            <article>
+                <div class="img-hover"><img src="images/travel.jpg" alt="travel"></div>
+                <div class="comments red-hover">A new way to travel the world</div>
+                <div class="subtitle">March 29, 2016</div>
+            </article>
+            <article>
+                <div class="img-hover"><img src="images/video8.jpg" alt="bank"></div>
+                <div class="comments red-hover">Why choose a bank?</div>
+                <div class="subtitle">March 29, 2016</div>
+            </article>
+        </section>
+        <!-- -------------------------------------------------------------------- -->
+        <section class="advert">
+            <h1 class="border">Advert</h1>
+            <a href="#"><img src="images/add.png" alt="add"></a>
+        </section>
+        <!-- -------------------------------------------------------------------- -->
+        <section class="suscribe">
+            <h1 class="border">Suscribe</h1>
+            <form action="" method="get">
+                <div class="champs">
+                        <input type="email" name="email" id="email" required placeholder=" Email adress"/>
+                    </div>
+                </form>
+            <a href="#" class="button">Suscribe</a>
+        </section>
+        <section class="videos">
+            <div class="img-hover"><img src="images/environment.jpg" alt="environment"></div>
+            <a href="" class="red-bg"></a>
+            <div class="video">
+                <a href="#" class="article__title">Save the eniroment with this step</a>
+                <div class="subtitle">Nov 29, 2017</div>
+                <hr>
+            </div>
+            <div class="video">
+                <a href="#" class="article__title">Protest to be anounced in January</a>
+                <div class="subtitle">Nov 29, 2017</div>
+                <hr>
+            </div>
+            <div class="video">
+                <a href="#" class="article__title">10 Bills that the Congress in voting</a>
+                <div class="subtitle">Nov 29, 2017</div>
+                <hr>
+            </div>
+            <div class="video">
+                <a href="#" class="article__title">The narcissism of Donald Trump</a>
+                <div class="subtitle">Nov 29, 2017</div>
+                
+            </div>
+        </section>
+        <!-- -------------------------------------------------------------------- -->
+        <section class="little-articles">
+            <div class="little-article">
+                <div class="img-hover"> <img src="images/toys.jpg
+                    " alt="toys"></div>
+                <a href="#" class="red-bg">Others</a>
+                <a href="#" class="article__title">11 hottest toys for this holiday season</a>
+                <a href="#" class="subtitle">Nov 29, 2017</a>
+            </div>
+            <div class="little-article">
+                <div class="img-hover"><img src="images/council.jpg" alt="council"></div>
+                <a href="#" class="red-bg">Video</a>
+                <a href="#" class="article__title">Get this good feeling about life</a>
+                <a href="#" class="subtitle">Nov 29, 2017</a>
+            </div>
+            <div class="little-article">
+                <div class="img-hover"><img src="images/life_3.jpg" alt="life_3"></div>
+                <a href="#" class="red-bg">Interview</a>
+                <a href="#" class="article__title">Get this good feeling about life</a>
+                <a href="#" class="subtitle">Nov 29, 2017</a>
+            </div>
+            <div class="little-article">
+                <div class="img-hover"><img src="images/toys_2.jpg" alt="toys_2"></div>
+                <a href="#" class="red-bg">Video</a>
+                <a href="#" class="article__title">11 hottest toys for this holiday season</a>
+                <a href="#" class="subtitle">Nov 29, 2017</a>
+            </div>
+        </section>
+        <!-- -------------------------------------------------------------------- -->
+        <section class="videos">
+            <div class="img-hover"><img src="images/video6.jpg" alt="video6"></div>
+            <a href="" class="red-bg">Video</a>
+            <div class="video">
+                <a href="#" class="article__title">10 Bills that the Congress in voting</a>
+                <div class="subtitle">Nov 29, 2017</div>
+                <hr>
+            </div>
+            <div class="video">
+                <a href="#" class="article__title">Blair can't save Britain from Brexit</a>
+                <div class="subtitle">Nov 29, 2017</div>
+                <hr>
+            </div>
+            <div class="video">
+                <a href="#" class="article__title">Save the eniroment with this step</a>
+                <div class="subtitle">Nov 29, 2017</div>
+                <hr>
+            </div>
+            <div class="video">
+                <a href="#" class="article__title">Protest to be anounced in January</a>
+                <div class="subtitle">Nov 29, 2017</div>
+                
+            </div>
+        </section>
+        <!-- -------------------------------------------------------------------- -->
+        <section class="capsules-videos">
+            <div class="capsule-video">
+                <div class="img-hover">
+                    <img src="images/video1.jpg" alt="video1">
+                </div>
+                <a href="#" class="play-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="12" width="9" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+                </a>
+                <a href="#" class="article__title">Show suspended by PBS amid misconduct allegations</a>
+            </div>
+            <div class="capsule-video">
+                <div class="img-hover">
+                    <img src="images/video2.jpg" alt="video2">
+                </div>
+                <a href="#" class="play-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="12" width="9" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+                </a>
+                <a href="#" class="article__title">Parents to Congress</a>
+            </div>
+            <div class="capsule-video">
+                <div class="img-hover">
+                    <img src="images/video3.jpg" alt="video3">
+                </div>
+                <a href="#" class="play-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="12" width="9" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+                </a>
+                <a href="#" class="article__title">Third Buy Alert for This “Millionaire Maker” Stock</a>
+            </div>
+            <div class="capsule-video">
+                <div class="img-hover">
+                    <img src="images/video4.jpg" alt="video4">
+
+                </div>
+                <a href="#" class="play-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="12" width="9" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+                </a>
+                <a href="#" class="article__title">The Chicago Mercantile Exchange is set to begin</a>
+            </div>
+            <div class="capsule-video">
+                <div class="img-hover">
+                    <img src="images/video5.jpg" alt="video5">
+
+                </div>
+                <a href="#" class="play-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="12" width="9" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+                </a>
+                <a href="#" class="article__title">Trading bitcoin futures</a>
+            </div>
+            <div class="capsule-video">
+                <div class="img-hover">
+                    <img src="images/video6.jpg" alt="video6">
+
+                </div>
+                <a href="#" class="play-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="12" width="9" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+                </a>
+                <a href="#" class="article__title">Are ‘Micro-Mansions’ the Next Big Thing?</a>
+            </div>
+            <div class="capsule-video">
+                <div class="img-hover">
+                    <img src="images/video7.jpg" alt="video7">
+
+                </div>
+                <a href="#" class="play-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="12" width="9" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+                </a>
+                <a href="#" class="article__title">McKinney’s target market</a>
+            </div>
+            <div class="capsule-video">
+                <div class="img-hover">
+                    <img src="images/video8.jpg" alt="video8">
+
+                </div>
+                <a href="#" class="play-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="12" width="9" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+                </a>
+                <a href="#" class="article__title">Australian Property Prices Remain Flat</a>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <section class="regions">
+            <h3>Regions</h3>
+            <nav>
+                <a href="#">u.s</a>
+                <a href="#">africa</a>
+                <a href="#">americas</a>
+                <a href="#">asia</a>
+                <a href="#">china</a>
+                <a href="#">europe</a>
+                <a href="#">middle</a>
+                <a href="#">east</a>
+                <a href="#">opinion</a>
+            </nav>
+        </section>
+        <section class="Fashion">
+            <h3>Fashion</h3>
+            <nav>
+                <a href="#">u.s</a>
+                <a href="#">africa</a>
+                <a href="#">americas</a>
+                <a href="#">asia</a>
+                <a href="#">china</a>
+                <a href="#">europe</a>
+                <a href="#">middle</a>
+                <a href="#">east</a>
+                <a href="#">opinion</a>
+            </nav>
+        </section>
+        <section class="politics">
+            <h3>politics</h3>
+            <nav>
+                <a href="#">u.s</a>
+                <a href="#">africa</a>
+                <a href="#">americas</a>
+                <a href="#">asia</a>
+                <a href="#">china</a>
+                <a href="#">europe</a>
+                <a href="#">middle</a>
+                <a href="#">east</a>
+                <a href="#">opinion</a>
+            </nav>
+        </section>
+        <section class="Featured">
+            <h3>Featured</h3>
+            <nav>
+                <a href="#">u.s</a>
+                <a href="#">africa</a>
+                <a href="#">americas</a>
+                <a href="#">asia</a>
+                <a href="#">china</a>
+                <a href="#">europe</a>
+                <a href="#">middle</a>
+                <a href="#">east</a>
+                <a href="#">opinion</a>
+            </nav>
+        </section>
+        <section class="faq">
+            <h3>FAQ</h3>
+            <nav>
+                <a href="#">u.s</a>
+                <a href="#">africa</a>
+                <a href="#">americas</a>
+                <a href="#">asia</a>
+                <a href="#">china</a>
+                <a href="#">europe</a>
+                <a href="#">middle</a>
+                <a href="#">east</a>
+                <a href="#">opinion</a>
+            </nav>
+        </section>
+        <section class="more">
+            <h3>+More</h3>
+            <nav>
+                <a href="#">u.s</a>
+                <a href="#">africa</a>
+                <a href="#">americas</a>
+                <a href="#">asia</a>
+                <a href="#">china</a>
+                <a href="#">europe</a>
+                <a href="#">middle</a>
+                <a href="#">east</a>
+                <a href="#">opinion</a>
+            </nav>
+        </section>
+        <hr>
+        <div class="footer_end">
+            <div class="copyrights">
+                <div>Copyright ©2023 All rights reserved</div>
+                <div>This template is made with <span><svg xmlns="http://www.w3.org/2000/svg" height="10" width="10" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#5f5e5e" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg></span> by <a href="#">colorlib</a> and modified by <a href="#">Rhumy</a></div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
