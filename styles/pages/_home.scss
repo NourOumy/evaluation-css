@@ -123,6 +123,13 @@ footer{
      flex-direction: column;
      gap: 20px;
      padding-top: 100px;
+     .capsule-video{
+        position: relative;
+        z-index: 1;
+        &:hover img{
+            filter: brightness(50%);
+        }
+     }
     .img-hover{
        margin-top: 20px;
     }
@@ -130,7 +137,10 @@ footer{
         
     }
     .play-button{
-       
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       translate: (-50% -50%);
     }
 
     .article__title{
