@@ -3,6 +3,8 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.897) 0%, rgba(0, 0, 0, 0.692
 color: white;
 display: flex;
 flex-direction: column;
+background-position: center;
+background-size: cover;
 .wrapper{
     padding: 100px 0;
     section{

@@ -55,7 +55,8 @@
     background-attachment: fixed;
     display: flex;
     align-items: center;
-    margin-top: 80px
+    margin-top: 80px;
+    justify-content: center
     ;
     .join_content{
         display: flex;
@@ -66,5 +67,7 @@
         color: white;
         gap: 20px;
     }
-    
+    .button{
+        color: white;
+    }
 }
