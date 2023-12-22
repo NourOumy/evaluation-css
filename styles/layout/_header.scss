@@ -8,6 +8,10 @@ header{
         padding: 5px;
     }
 }
+.header-top{
+    display: flex;
+    flex-direction: column;
+}
 
 .homepage header{
     margin-bottom: 100px;
@@ -60,4 +64,17 @@ header{
     background-color: #ffff;
     border-radius: 3px;
         }  
+}
+
+.header-end{
+    background-color: #e4e4e475;
+    display: flex;
+    justify-content: 
+    space-between;
+    align-items: center;
+    padding: 40px 10px;
+    margin-bottom: 100px;
+    span{
+        font-style: italic;
+    }
 }

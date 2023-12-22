@@ -95,6 +95,16 @@ transition: .3s all ease;
     }
 }
 
+.button__large{
+    justify-content: center;
+    border: 2px solid;
+    font-weight: bold;
+    &:hover{
+        color: red;
+        border-color: red;
+    }
+}
+
 article{
     display: flex;
     flex-direction: column;

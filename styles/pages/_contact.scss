@@ -1,0 +1,39 @@
+.submit{
+    form{
+        margin-bottom: 30px;
+    }
+
+    .champs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        input, textarea{
+            padding: 10px;
+            background-color: #f6f6f6;
+            border: 0
+        }
+        
+    }
+    
+}
+
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    .address, .phone{
+        display: flex;
+        flex-direction: column;
+    }
+    .description{
+        padding-bottom: 0;
+
+    }
+}
+
+.map{
+    width: 100%;
+    height: 500px;
+}

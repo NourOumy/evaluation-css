@@ -1,0 +1,70 @@
+.about-us{
+    h2{
+        font-size: 23px;
+    }
+}
+
+.history{
+    
+    .description{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
+
+.teams{
+
+    .team-membres{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 40px;
+    }
+    .membre__description{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+        .name{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .job{
+            color: gray
+            ;
+            font-style: italic;
+        }
+    }
+
+    .little-social-logos{
+        display: flex;
+        gap: 10px;
+        justify-content: end;
+        &:hover{
+            color: red;
+            border-color: red;
+        }
+    }
+
+}
+
+.join{
+    height: 50vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.897) 0%, rgba(0, 0, 0, 0.692) 0%) , url(../../images/cta.jpg) center/cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    margin-top: 80px
+    ;
+    .join_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        gap: 20px;
+    }
+    
+}
